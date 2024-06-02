@@ -6,6 +6,9 @@ import carfin from "../../assets/images/carfin.png";
 import dms from "../../assets/images/dms.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong, faCheck } from "@fortawesome/free-solid-svg-icons";
+import WhyLot from "./WhyLot";
+import Testimonial from "./Testimonial";
+import Social from "./Social";
 
 export default function Landing() {
   return (
@@ -220,6 +223,15 @@ export default function Landing() {
           />
         </div>
       </div>
+
+      {/* Why OneLot Section */}
+      <WhyLot />
+
+      {/* Testimonial Section */}
+      <Testimonial />
+
+      {/* Social Section */}
+      <Social />
     </>
   );
 }

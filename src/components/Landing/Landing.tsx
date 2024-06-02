@@ -9,6 +9,7 @@ import { faArrowRightLong, faCheck } from "@fortawesome/free-solid-svg-icons";
 import WhyLot from "./WhyLot";
 import Testimonial from "./Testimonial";
 import Social from "./Social";
+import FAQs from "./FAQs";
 
 export default function Landing() {
   return (
@@ -232,6 +233,9 @@ export default function Landing() {
 
       {/* Social Section */}
       <Social />
+
+      {/* FAQs Section */}
+      <FAQs />
     </>
   );
 }

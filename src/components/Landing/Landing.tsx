@@ -25,7 +25,7 @@ export default function Landing() {
               tailored for used car dealership. We also offer digital tools for
               streamlined operations and growth of your dealership.
             </p>
-            <a href="/" className="text-[#57009C] text-xl font-semibold">
+            <a href="/" className="text-primary text-xl font-semibold">
               Learn more
               <FontAwesomeIcon
                 icon={faArrowRightLong}
@@ -148,7 +148,7 @@ export default function Landing() {
             </div>
             <button
               type="button"
-              className="focus:outline-none mt-8 text-white bg-[#57009C] hover:bg-[#44156a] focus:ring-4 font-medium rounded-lg px-6 py-3 "
+              className="focus:outline-none mt-8 text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-6 py-3 "
             >
               View Loans -&gt;
             </button>
@@ -208,7 +208,7 @@ export default function Landing() {
             </div>
             <button
               type="button"
-              className="focus:outline-none mt-8 text-white bg-[#57009C] hover:bg-[#44156a] focus:ring-4 font-medium rounded-lg px-6 py-3 "
+              className="focus:outline-none mt-8 text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-6 py-3 "
             >
               Explore Now -&gt;
             </button>

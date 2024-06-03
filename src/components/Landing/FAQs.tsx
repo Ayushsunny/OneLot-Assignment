@@ -49,7 +49,7 @@ export default function FAQs() {
                         </p>
                         <p className="text-gray-500 mt-3 ml-8 group-open:animate-fadeIn text-left">
                             Check here for the exact requirements{" "}
-                            <a href="/" className="text-[#57009C] font-medium">
+                            <a href="/" className="text-primary font-medium">
                                 See full requirements
                             </a>
                         </p>
@@ -98,7 +98,7 @@ export default function FAQs() {
                         </p>
                         <p className="text-gray-500 mt-3 ml-8 group-open:animate-fadeIn text-left">
                             Check here for the exact requirements{" "}
-                            <a href="/" className="text-[#57009C] font-medium">
+                            <a href="/" className="text-primary font-medium">
                                 See full requirements
                             </a>
                         </p>
@@ -146,7 +146,7 @@ export default function FAQs() {
                         </p>
                         <p className="text-gray-500 mt-3 ml-8 group-open:animate-fadeIn text-left">
                             Check here for the exact requirements{" "}
-                            <a href="/" className="text-[#57009C] font-medium">
+                            <a href="/" className="text-primary font-medium">
                                 See full requirements
                             </a>
                         </p>
@@ -194,7 +194,7 @@ export default function FAQs() {
                         </p>
                         <p className="text-gray-500 mt-3 ml-8 group-open:animate-fadeIn text-left">
                             Check here for the exact requirements{" "}
-                            <a href="/" className="text-[#57009C] font-medium">
+                            <a href="/" className="text-primary font-medium">
                                 See full requirements
                             </a>
                         </p>
@@ -204,7 +204,7 @@ export default function FAQs() {
             <div className="flex justify-center mt-8">
             <button
                 type="button"
-                className="focus:outline-none mt-8 text-white bg-[#57009C] hover:bg-[#44156a] focus:ring-4 font-medium rounded-lg px-6 py-3 mx-auto"
+                className="focus:outline-none mt-8 text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-6 py-3 mx-auto"
             >
                 See All -&gt;
             </button>

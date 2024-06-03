@@ -37,7 +37,7 @@ export default function Navbar() {
           />
           <ul className="flex items-center justify-center gap-10">
             <li>
-              <a href="/" className="text-[#57009C]">
+              <a href="/" className="text-primary">
                 Home
               </a>
             </li>
@@ -45,7 +45,7 @@ export default function Navbar() {
               <button
                 id="dropdownDefaultButton"
                 data-dropdown-toggle="dropdown"
-                className="text-center inline-flex items-center  hover:text-[#57009C]"
+                className="text-center inline-flex items-center  hover:text-primary"
                 type="button"
               >
                 Products{" "}
@@ -58,12 +58,12 @@ export default function Navbar() {
               </button>
             </li>
             <li>
-              <a href="/" className="hover:text-[#57009C]">
+              <a href="/" className="hover:text-primary">
                 About
               </a>
             </li>
             <li>
-              <a href="/" className="hover:text-[#57009C]">
+              <a href="/" className="hover:text-primary">
                 Contact
               </a>
             </li>
@@ -76,7 +76,7 @@ export default function Navbar() {
           </a>
           <button
             type="button"
-            className="focus:outline-none text-white bg-[#57009C] hover:bg-[#44156a] focus:ring-4 font-medium rounded-lg px-5 py-3 "
+            className="focus:outline-none text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-5 py-3 "
           >
             Inquire Now
           </button>

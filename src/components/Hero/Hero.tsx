@@ -19,7 +19,7 @@ export default function Navbar() {
 
       <button
         type="button"
-        className="focus:outline-none text-white bg-[#57009C] hover:bg-[#44156a] focus:ring-4 font-medium rounded-lg text-lg px-6 py-3.5 mx-auto mt-10 mb-10"
+        className="focus:outline-none text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg text-lg px-6 py-3.5 mx-auto mt-10 mb-10"
       >
         Inquire Now
       </button>

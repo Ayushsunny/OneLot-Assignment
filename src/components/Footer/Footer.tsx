@@ -10,31 +10,31 @@ export default function Footer() {
   return (
     <>
       {/* Footer Inquire Section */}
-      <div className="flex flex-col justify-center items-center gap-2 mx-20 p-14">
-        <p className="sm:text-5xl text-3xl mb-8 font-extrabold">
+      <div className="flex flex-col justify-center items-center gap-2 mx-4 p-6 md:mx-20 md:p-14">
+        <p className="text-3xl font-extrabold mb-4 md:text-5xl md:mb-8">
           Get started today
         </p>
-        <p className="text-gray-500 font-normal text-xl w-5/12 ml-6">
+        <p className="text-gray-500 font-normal text-base text-center md:text-xl md:w-5/12 md:ml-6 md:text-left">
           We look forward to serving the needs of used car dealers across the
           Philippines and helping them thrive in this dynamic market.
         </p>
-        <div className="mt-8">
+        <div className="mt-6 md:mt-8">
           <button
             type="button"
-            className="focus:outline-none text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-5 py-3"
+            className="focus:outline-none text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-4 py-2 md:px-5 md:py-3"
           >
             Inquire Now
           </button>
         </div>
       </div>
 
-      {/* Footer Inquire Section */}
+      {/* Footer Guide Section */}
 
       <footer className="flex flex-col sm:flex-row mt-17 sm:justify-between sm:items-center mx-10 mt-8 p-10">
         <Image
           src={logo1}
           alt="onelot-logo"
-          className="mr-3"
+          className="sm:mr-3"
           width={170}
           height={170}
         />
@@ -74,7 +74,7 @@ export default function Footer() {
             </a>
             . All Rights Reserved.
           </span>
-          <div className="flex space-x-6 sm:justify-end sm:mt-0">
+          <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-6 sm:justify-end sm:mt-0">
             <a href="#" className="flex items-center justify-center">
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -97,6 +97,8 @@ export default function Footer() {
           . All Rights Reserved.
         </span>
       </div>
+
+
     </>
   );
 }

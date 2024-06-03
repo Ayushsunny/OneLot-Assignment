@@ -14,28 +14,28 @@ import FAQs from "./FAQs";
 export default function Landing() {
   return (
     <>
-      <div className="grid gap-8 grid-cols-2 px-24 mt-12 py-8 border-t border-b">
-        <div className="mb-10 pr-24 pt-20">
-          <div className="pr-8">
-            <p className="text-black text-5xl font-extrabold">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 px-6 md:px-24 mt-12 py-8 border-t border-b">
+        <div className="mb-10 md:pr-24 pt-10 md:pt-20">
+          <div className="md:pr-8">
+            <p className="text-black text-3xl md:text-5xl font-extrabold">
               Everything you need to grow your business
             </p>
-            <p className="text-gray-500 text-2xl mt-8 mb-5">
+            <p className="text-gray-500 text-xl md:text-2xl mt-8 mb-5">
               OneLot is your trusted lending and financing partner, exclusively
               tailored for used car dealership. We also offer digital tools for
               streamlined operations and growth of your dealership.
             </p>
-            <a href="/" className="text-primary text-xl font-semibold">
+            <a href="/" className="text-primary text-lg md:text-xl font-semibold">
               Learn more
               <FontAwesomeIcon
                 icon={faArrowRightLong}
-                className="w-4.5 h-4.5 ms-2"
+                className="w-4 h-4 md:w-4.5 md:h-4.5 ms-2"
               />
             </a>
           </div>
         </div>
 
-        <div className="mb-10 pr-24 pt-20">
+        <div className="mb-10 md:pr-24 pt-10 md:pt-20">
           {/*Upper Part*/}
           <div className="flex items-center mb-2">
             <Image
@@ -84,8 +84,8 @@ export default function Landing() {
 
       {/* First Section */}
 
-      <div className="flex flex-row bg-gray-50 py-20 px-0">
-        <div className="flex-none order-1 mb-0">
+      <div className="flex flex-col md:flex-row bg-gray-50 py-20 px-6 md:px-0">
+        <div className="flex-none order-1 mb-10 md:mb-0">
           <Image
             src={carfin}
             alt="left-image"
@@ -95,15 +95,15 @@ export default function Landing() {
           />
         </div>
         <div className="flex-1 order-2">
-          <div className="w-3/4 ml-24">
+          <div className="w-full md:w-3/4 ml-0 md:ml-24">
             <div className="py-0">
-              <p className="text-5xl font-extrabold text-black">
+              <p className="text-3xl md:text-5xl font-extrabold text-black">
                 Car Financing
               </p>
-              <p className="text-2xl font-semibold my-4 text-black">
+              <p className="text-xl md:text-2xl font-semibold my-4 text-black">
                 Dealer Loans
               </p>
-              <p className="text-gray-500 font-normal text-2xl">
+              <p className="text-gray-500 font-normal text-xl md:text-2xl">
                 OneLot’s working capital loans allows car dealer to buy more
                 cars and capitalize on car purchase opportunities you would
                 otherwise have missed. We transfer the money to your account
@@ -144,7 +144,10 @@ export default function Landing() {
                 </div>
               </div>
               <hr className="my-11"></hr>
-              <p className="text-gray-500 font-normal sm:text-2xl">Use OneLot&apos;s financing solution today, grow the number of cars in your lot and increase your profits</p>
+              <p className="text-gray-500 font-normal text-xl md:text-2xl">
+                Use OneLot&apos;s financing solution today, grow the number of
+                cars in your lot and increase your profits
+              </p>
             </div>
             <button
               type="button"
@@ -156,17 +159,18 @@ export default function Landing() {
         </div>
       </div>
 
-
       {/* Second Section */}
-      <div className="flex flex-row bg-gray-50 py-20 px-0">
-        <div className="flex-1 order-2">
-          <div className="w-3/4 ml-24">
+      <div className="flex flex-col md:flex-row bg-gray-50 py-20 px-6 md:px-0">
+  <div className="flex-1 order-2 md:order-1">
+    <div className="w-full md:w-3/4 ml-0 md:ml-24">
             <div className="py-0">
-              <p className="text-5xl font-extrabold text-black mb-8">
+              <p className="text-3xl md:text-5xl font-extrabold text-black mb-8">
                 Dealership Management System
               </p>
-              <p className="text-gray-500 font-normal text-2xl">
-                OneLot’s digital platform has been build with the single goal to help used car dealers to operate their business more efficiently.
+              <p className="text-gray-500 font-normal text-xl md:text-2xl">
+                OneLot’s digital platform has been built with the single goal to
+                help used car dealers to operate their business more
+                efficiently.
               </p>
               <hr className="my-11"></hr>
 
@@ -178,7 +182,9 @@ export default function Landing() {
 
                   <p className="text-xl">
                     <span className="font-bold">Inventory Management: </span>
-                    Track all details about your cars and sales in one place - from car details to buyers. All you need to now in one place
+                    Track all details about your cars and sales in one place -
+                    from car details to buyers. All you need to know in one
+                    place
                   </p>
                 </div>
 
@@ -189,7 +195,9 @@ export default function Landing() {
 
                   <p className="text-xl">
                     <span className="font-bold">Marketing Tools: </span>
-                    Promote your cars across all the different platforms. Write a marketing text and upload on Facebook Marketplace, Groups, Pages and Instagram with a single click of a button
+                    Promote your cars across all the different platforms. Write
+                    a marketing text and upload on Facebook Marketplace, Groups,
+                    Pages and Instagram with a single click of a button
                   </p>
                 </div>
 
@@ -197,27 +205,31 @@ export default function Landing() {
                   <div className="flex mr-3 mb-14 justify-center items-center w-5 h-5 rounded-full bg-[#ede3fbe3] text-[#8945e2]">
                     <FontAwesomeIcon icon={faCheck} className="w-8 h-2.5" />
                   </div>
+
                   <p className="text-xl">
                     <span className="font-bold">Marketing Insights (Coming Soon): </span>
-                    Get insights on prices and volumes for all cars in the market. We provide you all the date by combining data from various sources with a single click of a button.
+                    Get insights on prices and volumes for all cars in the market. We provide you all the date by combining data from various sources with a single click of a button. 
                   </p>
                 </div>
               </div>
               <hr className="my-11"></hr>
-              <p className="text-gray-500 font-normal sm:text-2xl">Sign-up OneLot&apos;s dealer platform today, and your cars easier.</p>
+              <p className="text-gray-500 font-normal text-xl md:text-2xl">
+                Use OneLot&apos;s digital platform to increase the efficiency of
+                your dealership, allowing you to focus more on your customers
+              </p>
             </div>
             <button
               type="button"
               className="focus:outline-none mt-8 text-white bg-primary hover:bg-secondary focus:ring-4 font-medium rounded-lg px-6 py-3 "
             >
-              Explore Now -&gt;
+              View Loans -&gt;
             </button>
           </div>
         </div>
-        <div className="flex-none order-3 mb-0">
+        <div className="flex-none order-1 mb-10 md:mb-0">
           <Image
             src={dms}
-            alt="right-image"
+            alt="left-image"
             className="hi"
             width={900}
             height={650}
@@ -225,16 +237,9 @@ export default function Landing() {
         </div>
       </div>
 
-      {/* Why OneLot Section */}
       <WhyLot />
-
-      {/* Testimonial Section */}
       <Testimonial />
-
-      {/* Social Section */}
       <Social />
-
-      {/* FAQs Section */}
       <FAQs />
     </>
   );

@@ -1,6 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OneLot Internship Coding Challenge
 
-## Getting Started
+## Approach and Explanation
+
+For this coding challenge, I was tasked with building a Next.js application with a pixel-perfect design of the provided screens. I chose to use Tailwind CSS for styling, as it is a modern and popular CSS framework that allows for efficient and customizable styling.
+
+I began by creating a new Next.js project and setting up the basic file structure. I then created components for each section of the design, using Tailwind CSS classes to style the elements. I made sure to write clean, modularized code with comments where necessary, following best practices of development.
+
+To ensure responsiveness, I used Tailwind's responsive design classes to apply different styles for medium, large, and extra-large screen sizes. This allowed me to create a user-friendly and intuitive UI that adapts to different screen sizes.
+
+I have attached a screen recording of the desktop and mobile views of the application, demonstrating its responsiveness and functionality.
+
+## Technical Decisions
+
+I chose to use Tailwind CSS for styling, as it is a popular and efficient CSS framework that allows for customizable styling.
+I used Next.js as the framework for building the application, as it is a popular and well-maintained framework for building server-side rendered React applications.
+I wrote clean, modularized code with comments where necessary, following best practices of development.
+Screen Recordings
+
+**Desktop View:** [insert link to screen recording]
+**Mobile View:** [insert link to screen recording]
+
+
+## Code Organization
+
+The code is organized into the following directories:
+
+```
+└── 📁OneLot Assignment
+    └── .editorconfig
+    └── .eslintrc.json
+    └── .gitignore
+    └── next-env.d.ts
+    └── next.config.mjs
+    └── package-lock.json
+    └── package.json
+    └── postcss.config.js
+    └── postcss.config.mjs
+    └── 📁public
+        └── next.svg
+        └── vercel.svg
+    └── README.md
+    └── 📁src
+        └── 📁app
+            └── favicon.ico
+            └── globals.css
+            └── layout.tsx
+            └── page.tsx
+        └── 📁assets
+            └── 📁images
+                └── amount.png
+                └── avatar.png
+                └── carfin.png
+                └── dms.png
+                └── dollar.png
+                └── easy.png
+                └── fast.png
+                └── flexible.png
+                └── hero.png
+                └── logo1.png
+                └── sec.png
+                └── social.png
+                └── speak.png
+                └── trust.png
+                └── usflag.png
+        └── 📁components
+            └── 📁Footer
+                └── Footer.tsx
+            └── 📁Header
+                └── Navbar.tsx
+            └── 📁Hero
+                └── Hero.tsx
+            └── 📁Landing
+                └── FAQs.tsx
+                └── Landing.tsx
+                └── Social.tsx
+                └── Testimonial.tsx
+                └── WhyLot.tsx
+        └── 📁styles
+            └── styles.css
+    └── tailwind.config.js
+    └── tailwind.config.ts
+    └── tsconfig.json
+```
+
 
 First, run the development server:
 
@@ -29,8 +111,4 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

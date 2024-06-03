@@ -15,10 +15,26 @@ I have attached a screen recording of the desktop and mobile views of the applic
 I chose to use Tailwind CSS for styling, as it is a popular and efficient CSS framework that allows for customizable styling.
 I used Next.js as the framework for building the application, as it is a popular and well-maintained framework for building server-side rendered React applications.
 I wrote clean, modularized code with comments where necessary, following best practices of development.
-Screen Recordings
 
-**Desktop View:** [insert link to screen recording]
-**Mobile View:** [insert link to screen recording]
+
+## Screen Recordings
+
+**Desktop View:** 
+
+
+https://github.com/Ayushsunny/manila/assets/73520373/de42c97b-2c8a-45f2-8278-b24a80e7c3ee
+
+
+
+
+
+**Mobile View:** 
+
+
+
+https://github.com/Ayushsunny/manila/assets/73520373/a4977ae6-9600-44c5-8e9e-f28444871ee7
+
+
 
 
 ## Code Organization

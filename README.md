@@ -1,4 +1,4 @@
-# OneLot Internship Coding Challenge
+# OneLot
 
 ## Approach and Explanation
 
